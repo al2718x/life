@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Life - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Life.res" /d "NDEBUG" "C:\Life\Life.rc"" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Life.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Life\Field.cpp"
+"C:\Life\FieldDlg.cpp"
+"C:\Life\Life.cpp"
+"C:\Life\LifeDoc.cpp"
+"C:\Life\LifeView.cpp"
+"C:\Life\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2A.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Life.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Life\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2B.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Life.pdb" /machine:I386 /out:"Release/Life.exe" 
+.\Release\Field.obj
+.\Release\FieldDlg.obj
+.\Release\Life.obj
+.\Release\LifeDoc.obj
+.\Release\LifeView.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\Life.res
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP2C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Field.cpp
+FieldDlg.cpp
+Life.cpp
+LifeDoc.cpp
+LifeView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Life.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
